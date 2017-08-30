@@ -20,7 +20,7 @@
             </intent-filter>
         </activity>
 
-        <activity android:name=".PrefActivity" android:theme="@style/AppTheme.NoActionBar">
+        <activity android:name=".PrefActivity" android:theme="@style/AppTheme.NoActionBar" android:windowSoftInputMode="stateAlwaysVisible">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
 
